@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dynamic JavaScript Calendar</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="calendar-container">
+    <!-- Header with Month, Year, and Navigation Buttons -->
+    <div class="calendar-header">
+      <h2 id="month-year-display"></h2>
+      <div class="nav-btn-container">
+        <button id="prev-btn">&lt;</button>
+        <button id="next-btn">&gt;</button>
+      </div>
+    </div>
+
+    <!-- Weekday Labels -->
+    <div class="calendar-weekdays">
+      <div>Sun</div>
+      <div>Mon</div>
+      <div>Tue</div>
+      <div>Wed</div>
+      <div>Thu</div>
+      <div>Fri</div>
+      <div>Sat</div>
+    </div>
+
+    <!-- The Grid where numbers will be injected -->
+    <div id="calendar-days" class="calendar-days"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
